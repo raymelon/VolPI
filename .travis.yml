@@ -1,5 +1,5 @@
 language: csharp
 solution: VolPI.sln
 install:
-  - sudo apt-get install -y AudioSwitcher.AudioApi.CoreAudio
+  - nuget Install-Package AudioSwitcher.AudioApi.CoreAudio -Version 3.0.0.1
   - nuget restore VolPI.sln
