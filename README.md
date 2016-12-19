@@ -14,6 +14,7 @@ to...
 - To mute/unmute, double click the tray icon.
 - To open the volume slider, single click the tray icon.
 
+## AudioSwitcher
 This project uses [AudioSwitcher](https://github.com/xenolightning/AudioSwitcher).
 >http://audioswit.ch/er
 
