@@ -48,7 +48,7 @@ namespace VolPI
             this.Hide();
 
             this.Left = Cursor.Position.X;
-            this.Top = Screen.PrimaryScreen.WorkingArea.Bottom - Height;
+            this.Top = Screen.PrimaryScreen.WorkingArea.Bottom - this.Height;
 
             Process volTrack = new Process();
             volTrack.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
