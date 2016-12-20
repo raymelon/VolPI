@@ -1,2 +1,2 @@
 install: 
-  - ps: nuget Install "AudioSwitcher"
+  - ps: nuget Install "AudioSwitcher.AudioApi"
