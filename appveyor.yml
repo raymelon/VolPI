@@ -1,2 +1,2 @@
 install: 
-  - ps: Install-Package "AudioSwitcher.AudioApi.CoreAudio -Version 3.0.0.1"
+  - ps: Install "AudioSwitcher.AudioApi.CoreAudio -Version 3.0.0.1"
