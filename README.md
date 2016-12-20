@@ -8,9 +8,10 @@ to...
 
 >See [VolPI/screenshots](https://github.com/raymelon/VolPI/tree/master/screenshots) for more.
 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Check out VolPI! The Volume Percentage Indicator. Your volume percentage etched on your system tray. @github https://github.com/raymelon/VolPI)
+[![Build status](https://ci.appveyor.com/api/projects/status/asu6ofasst2t1ce4)](https://ci.appveyor.com/project/raymelon/volpi) 
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Check out VolPI! The Volume Percentage Indicator. Your volume percentage etched on your system tray. @github https://github.com/raymelon/VolPI)
 ![](https://reposs.herokuapp.com/?path=raymelon/VolPI&style=flat-square) 
-[![Build status](https://ci.appveyor.com/api/projects/status/asu6ofasst2t1ce4)](https://ci.appveyor.com/project/raymelon/volpi) [![os (Windows 7+)](https://img.shields.io/badge/os-Windows%207%2B-green.svg?style=flat-square)](https://www.microsoft.com/en-us/software-download/windows7)
+[![os (Windows 7+)](https://img.shields.io/badge/os-Windows%207%2B-green.svg?style=flat-square)](https://www.microsoft.com/en-us/software-download/windows7)
 [![.NET (3.0+)](https://img.shields.io/badge/.NET%20Framework-3.0%2B-orange.svg?style=flat-square)](https://www.microsoft.com/net)
 
 ## How To's
