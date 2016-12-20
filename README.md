@@ -22,7 +22,7 @@ to...
 ## Audio Libraries
 This project uses [AudioSwitcher](https://github.com/xenolightning/AudioSwitcher) and [NAudio](https://github.com/naudio/NAudio).
 
-Integrate these libraries on your projects too!
+Integrate these libraries on your projects too! [![NuGet](https://img.shields.io/nuget/v/Nuget.Core.svg)]()
 ```
 PM> Install-Package AudioSwitcher.AudioApi.CoreAudio
 PM> Install-Package NAudio
