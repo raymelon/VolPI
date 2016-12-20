@@ -2,5 +2,5 @@ install:
   - ps: nuget Install "AudioSwitcher.AudioApi"
  
  
- before_build:
+before_build:
   - ps: nuget restore "VolPI.sln"
