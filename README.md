@@ -1,5 +1,4 @@
-# VolPI: Volume Percent Indicator [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Check out VolPI! The Volume Percentage Indicator. Your volume percentage etched on your system tray. @github https://github.com/raymelon/VolPI)![](https://reposs.herokuapp.com/?path=raymelon/VolPI)
-[comment]: # ([![Build Status](https://travis-ci.org/raymelon/VolPI.svg)](https://travis-ci.org/raymelon/VolPI))
+# VolPI: Volume Percent Indicator [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Check out VolPI! The Volume Percentage Indicator. Your volume percentage etched on your system tray. @github https://github.com/raymelon/VolPI)![](https://reposs.herokuapp.com/?path=raymelon/VolPI) [![Build status](https://ci.appveyor.com/api/projects/status/asu6ofasst2t1ce4?svg=true)](https://ci.appveyor.com/project/raymelon/volpi)
 
 Your volume percentage etched on your tray.
 >
