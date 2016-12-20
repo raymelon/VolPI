@@ -9,10 +9,11 @@ to...
 
 >See [VolPI/screenshots](https://github.com/raymelon/VolPI/tree/master/screenshots) for more.
 
-## Features
+## How To's
 
 - To mute/unmute, double click the tray icon.
 - To open the volume slider, single click the tray icon.
+- To show tray menu, right click the tray icon.
 
 ## Audio Libraries
 This project uses [AudioSwitcher](https://github.com/xenolightning/AudioSwitcher) and [NAudio](https://github.com/naudio/NAudio).
