@@ -14,15 +14,18 @@ to...
 - To mute/unmute, double click the tray icon.
 - To open the volume slider, single click the tray icon.
 
-## AudioSwitcher
-This project uses [AudioSwitcher](https://github.com/xenolightning/AudioSwitcher).
+## Audio Libraries
+This project uses [AudioSwitcher](https://github.com/xenolightning/AudioSwitcher) and [NAudio](https://github.com/naudio/NAudio).
 >http://audioswit.ch/er
+>https://naudio.codeplex.com/
 
-Special thanks to [Sean Chapman](https://github.com/xenolightning).
-Integrate his libray in your projects too!
+Integrate these libraries on your projects too!
 ```
-PM> Install-Package AudioSwitcher.AudioApi.CoreAudio -Version 3.0.0.1
+PM> Install-Package AudioSwitcher.AudioApi.CoreAudio
+PM> Install-Package NAudio
 ```
+
+
 ## Licenses [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc/4.0/) <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a> 
 This app's codes is licensed under [MIT License](https://github.com/raymelon/VolPI/blob/master/LICENSE)
 while its icon files [VolPI.ico](https://github.com/raymelon/VolPI/blob/master/VolPI/VolPI.ico) and
