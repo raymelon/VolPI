@@ -1,2 +1,2 @@
 install: 
-  - ps: nuget Install "AudioSwitcher.AudioApi.CoreAudio -Version 3.0.0.1"
+  - ps: nuget Install-Package "AudioSwitcher.AudioApi.CoreAudio -Version 3.0.0.1"
