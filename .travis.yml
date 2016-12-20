@@ -3,3 +3,4 @@ solution: VolPI.sln
 install:
   - nuget Install AudioSwitcher.AudioApi.CoreAudio -Version 3.0.0.1
   - nuget restore VolPI.sln
+os: windows
