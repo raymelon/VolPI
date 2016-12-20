@@ -16,8 +16,8 @@ to...
   ![alt tag](https://github.com/raymelon/VolPI/blob/master/screenshots/v1/volpi_v1_muted.jpg)
   ![alt tag](https://github.com/raymelon/VolPI/blob/master/screenshots/v1/volpi_v1_unmuted.jpg)
 
-- To open the volume slider, single click the tray icon.
-- To show tray menu, right click the tray icon.
+- To open the Windows' volume slider `sndvol.exe -f`, single click the tray icon.
+- To show the tray menu, right click the tray icon.
 
 ## Audio Libraries
 This project uses [AudioSwitcher](https://github.com/xenolightning/AudioSwitcher) and [NAudio](https://github.com/naudio/NAudio).
