@@ -24,6 +24,14 @@ to...
 - To open the Windows' volume slider `sndvol.exe -f`, single click the tray icon.
 - To show the tray menu, right click the tray icon.
 
+## Download
+ - [VolPI_v1.0.0.zip](https://github.com/raymelon/VolPI/releases/download/v1.0.0/VolPI_v1.0.0.zip)
+ 
+ > - Once finished, extract the `zip` file. 
+ > - Open `VolPI.exe` and place it anywhere on your tray. 
+ > - Don't forget to add `VolPI.exe` to startup.
+ > - Enjoy!
+
 ## Audio Libraries
 This project uses [AudioSwitcher](https://github.com/xenolightning/AudioSwitcher) and [NAudio](https://github.com/naudio/NAudio).
 
