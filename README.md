@@ -16,8 +16,6 @@ to...
 
 ## Audio Libraries
 This project uses [AudioSwitcher](https://github.com/xenolightning/AudioSwitcher) and [NAudio](https://github.com/naudio/NAudio).
->http://audioswit.ch/er
->https://naudio.codeplex.com/
 
 Integrate these libraries on your projects too!
 ```
