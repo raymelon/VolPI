@@ -30,4 +30,4 @@ This app's code is licensed under [MIT License](https://github.com/raymelon/VolP
 while its icon files [VolPI.ico](https://github.com/raymelon/VolPI/blob/master/VolPI/VolPI.ico) and
 [VolPI icon.png](https://github.com/raymelon/VolPI/blob/master/VolPI/VolPI%20icon.png) are licensed under
 [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
-AudioSwitcher and NAudio are licensed under [Microsoft Public License (MS-PL)](https://opensource.org/licenses/MS-PL)
+AudioSwitcher and NAudio are licensed under [Microsoft Public License (MS-PL)](https://opensource.org/licenses/MS-PL).
