@@ -41,7 +41,7 @@ PM> Install-Package AudioSwitcher.AudioApi.CoreAudio
 PM> Install-Package NAudio
 ```
 
-## Licenses [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT) ![License: MIT](https://img.shields.io/badge/License-MS--PL-8A2BE2.svg?style=flat-square) [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=flat-square)](http://creativecommons.org/licenses/by-nc/4.0/) <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
+## Licenses [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT) ![License: MS-PL](https://img.shields.io/badge/License-MS--PL-8A2BE2.svg?style=flat-square) [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=flat-square)](http://creativecommons.org/licenses/by-nc/4.0/) <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
 This app's code is licensed under [MIT License](https://github.com/raymelon/VolPI/blob/master/LICENSE)
 while its icon files [VolPI.ico](https://github.com/raymelon/VolPI/blob/master/VolPI/VolPI.ico) and
 [VolPI icon.png](https://github.com/raymelon/VolPI/blob/master/VolPI/VolPI%20icon.png) are licensed under
