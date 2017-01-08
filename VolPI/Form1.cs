@@ -31,7 +31,7 @@ namespace VolPI
         {
             if(e.Button == MouseButtons.Left)
             {
-                showMasterMixer();
+                openSndVol("-f ");
             }
             else if(e.Button == MouseButtons.Right)
             {
@@ -74,6 +74,26 @@ namespace VolPI
             {
                 this.Close();
             }
+            else if(clickedItem == this.toolStripMenuItemOpenVolumeMixer)
+            {
+                openSndVol("-r ");
+            }
+            else if(clickedItem == this.toolStripMenuItemPlaybackDevices)
+            {
+                Process.Start("control.exe", "mmsys.cpl,,0");
+            }
+            else if(clickedItem == this.toolStripMenuItemRecordingDevices)
+            {
+                Process.Start("control.exe", "mmsys.cpl,,1");
+            }
+            else if(clickedItem == this.toolStripMenuItemSounds)
+            {
+                Process.Start("control.exe", "mmsys.cpl,,2");
+            }
+            else if (clickedItem == this.toolStripMenuItemVolumeControlOptions)
+            {
+                openSndVol("-p ");
+            }
             else if (clickedItem == this.toolStripItemAbout)
             {
                 contextMenuStrip1.Hide();
@@ -88,9 +108,9 @@ namespace VolPI
 
         #region Class Methods
         /// <summary>
-        /// shows volume adjuster/master mixer window position above the tray notification icon
+        /// shows volume adjuster/mixer/settings window (depending on the arguments supplied) positioned above the tray notification icon
         /// </summary>
-        private void showMasterMixer()
+        private void openSndVol(string arg)
         {
             this.Hide();
 
@@ -101,9 +121,12 @@ namespace VolPI
             volTrack.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
             volTrack.StartInfo.FileName = "sndvol.exe";
 
+            // position relative to the tray icon
             int notifyIconPos = this.Top * 65536 + this.Left;
 
-            volTrack.StartInfo.Arguments = "-f " + notifyIconPos.ToString();
+            // open volume process & position it above the tray icon
+            volTrack.StartInfo.Arguments = arg + notifyIconPos.ToString();
+
             volTrack.Start();
         }
 

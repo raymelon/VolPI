@@ -64,13 +64,13 @@
             // labelTitle
             // 
             this.labelTitle.AutoSize = true;
-            this.labelTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitle.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.labelTitle.Location = new System.Drawing.Point(131, 12);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(314, 25);
+            this.labelTitle.Size = new System.Drawing.Size(302, 30);
             this.labelTitle.TabIndex = 26;
-            this.labelTitle.Text = "VolPI: Volume Percent Indicator";
+            this.labelTitle.Text = "Volπ: Volume Percent Indicator";
             // 
             // panel1
             // 
