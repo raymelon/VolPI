@@ -1,4 +1,4 @@
-# VolPI: Volume Percent Indicator 
+# Volπ: Volume Percent Indicator 
 ### Your volume percentage etched on your tray.
 >
 From
