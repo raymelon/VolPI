@@ -12,7 +12,7 @@ to...
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Check out VolPI! The Volume Percentage Indicator. Your volume percentage etched on your system tray. @github https://github.com/raymelon/VolPI)
 ![](https://reposs.herokuapp.com/?path=raymelon/VolPI&color=red)
 [![os (Windows 7+)](https://img.shields.io/badge/os-Windows%207%2B-green.svg?style=flat-square)](https://www.microsoft.com/en-us/software-download/windows7)
-[![.NET (3.0+)](https://img.shields.io/badge/.NET%20Framework-3.0%2B-orange.svg?style=flat-square)](https://www.microsoft.com/net)
+[![.NET (4.0+)]https://img.shields.io/badge/.NET%20Framework-4.0%2B-orange.svg?style=flat-square)](https://www.microsoft.com/net)
 
 ## How To's
 
@@ -25,7 +25,7 @@ to...
 - To show the tray menu, right click the tray icon.
 
 ## Download
- - [VolPI_v1.0.0.zip](https://github.com/raymelon/VolPI/releases/download/v1.0.0/VolPI_v1.0.0.zip)
+ - [VolPI_v1.0.1.zip](https://github.com/raymelon/VolPI/releases/download/v1.0.1/VolPI_v1.0.1.zip)
  
  > - Once finished, extract the `zip` file. 
  > - Open `VolPI.exe` and place it anywhere on your tray. 
