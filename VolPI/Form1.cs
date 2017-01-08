@@ -94,6 +94,10 @@ namespace VolPI
             {
                 openSndVol("-p ");
             }
+            else if(clickedItem == this.toolStripMenuItemTroubleshoot)
+            {
+                Process.Start("msdt.exe", "/id AudioPlaybackDiagnostic");
+            }
             else if (clickedItem == this.toolStripItemAbout)
             {
                 contextMenuStrip1.Hide();

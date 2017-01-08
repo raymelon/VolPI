@@ -32,8 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.toolStripMenuItemExit = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripItemAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItemOpenVolumeMixer = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMenuItemPlaybackDevices = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,6 +40,9 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMenuItemVolumeControlOptions = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripItemAbout = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItemExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItemTroubleshoot = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,69 +64,76 @@
             this.toolStripMenuItemSounds,
             this.toolStripSeparator2,
             this.toolStripMenuItemVolumeControlOptions,
+            this.toolStripMenuItemTroubleshoot,
             this.toolStripSeparator3,
             this.toolStripItemAbout,
             this.toolStripMenuItemExit});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.contextMenuStrip1.Size = new System.Drawing.Size(204, 176);
-            // 
-            // toolStripMenuItemExit
-            // 
-            this.toolStripMenuItemExit.Name = "toolStripMenuItemExit";
-            this.toolStripMenuItemExit.Size = new System.Drawing.Size(203, 22);
-            this.toolStripMenuItemExit.Text = "Exit";
-            // 
-            // toolStripItemAbout
-            // 
-            this.toolStripItemAbout.Name = "toolStripItemAbout";
-            this.toolStripItemAbout.Size = new System.Drawing.Size(203, 22);
-            this.toolStripItemAbout.Text = "About VolPI";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(235, 198);
             // 
             // toolStripMenuItemOpenVolumeMixer
             // 
             this.toolStripMenuItemOpenVolumeMixer.Name = "toolStripMenuItemOpenVolumeMixer";
-            this.toolStripMenuItemOpenVolumeMixer.Size = new System.Drawing.Size(203, 22);
+            this.toolStripMenuItemOpenVolumeMixer.Size = new System.Drawing.Size(234, 22);
             this.toolStripMenuItemOpenVolumeMixer.Text = "Open Volume Mixer";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(200, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(231, 6);
             // 
             // toolStripMenuItemPlaybackDevices
             // 
             this.toolStripMenuItemPlaybackDevices.Name = "toolStripMenuItemPlaybackDevices";
-            this.toolStripMenuItemPlaybackDevices.Size = new System.Drawing.Size(203, 22);
+            this.toolStripMenuItemPlaybackDevices.Size = new System.Drawing.Size(234, 22);
             this.toolStripMenuItemPlaybackDevices.Text = "Playback Devices";
             // 
             // toolStripMenuItemRecordingDevices
             // 
             this.toolStripMenuItemRecordingDevices.Name = "toolStripMenuItemRecordingDevices";
-            this.toolStripMenuItemRecordingDevices.Size = new System.Drawing.Size(203, 22);
+            this.toolStripMenuItemRecordingDevices.Size = new System.Drawing.Size(234, 22);
             this.toolStripMenuItemRecordingDevices.Text = "Recording Devices";
             // 
             // toolStripMenuItemSounds
             // 
             this.toolStripMenuItemSounds.Name = "toolStripMenuItemSounds";
-            this.toolStripMenuItemSounds.Size = new System.Drawing.Size(203, 22);
+            this.toolStripMenuItemSounds.Size = new System.Drawing.Size(234, 22);
             this.toolStripMenuItemSounds.Text = "Sounds";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(200, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(231, 6);
             // 
             // toolStripMenuItemVolumeControlOptions
             // 
             this.toolStripMenuItemVolumeControlOptions.Name = "toolStripMenuItemVolumeControlOptions";
-            this.toolStripMenuItemVolumeControlOptions.Size = new System.Drawing.Size(203, 22);
+            this.toolStripMenuItemVolumeControlOptions.Size = new System.Drawing.Size(234, 22);
             this.toolStripMenuItemVolumeControlOptions.Text = "Volume Control Options";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(200, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(231, 6);
+            // 
+            // toolStripItemAbout
+            // 
+            this.toolStripItemAbout.Name = "toolStripItemAbout";
+            this.toolStripItemAbout.Size = new System.Drawing.Size(234, 22);
+            this.toolStripItemAbout.Text = "About VolPI";
+            // 
+            // toolStripMenuItemExit
+            // 
+            this.toolStripMenuItemExit.Name = "toolStripMenuItemExit";
+            this.toolStripMenuItemExit.Size = new System.Drawing.Size(234, 22);
+            this.toolStripMenuItemExit.Text = "Exit";
+            // 
+            // toolStripMenuItemTroubleshoot
+            // 
+            this.toolStripMenuItemTroubleshoot.Name = "toolStripMenuItemTroubleshoot";
+            this.toolStripMenuItemTroubleshoot.Size = new System.Drawing.Size(234, 22);
+            this.toolStripMenuItemTroubleshoot.Text = "Troubleshoot sound problems";
             // 
             // Form1
             // 
@@ -159,6 +167,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemVolumeControlOptions;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemTroubleshoot;
     }
 }
 
