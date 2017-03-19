@@ -9,7 +9,7 @@ to...
 >See [VolPI/screenshots](https://github.com/raymelon/VolPI/tree/master/screenshots) for more.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/asu6ofasst2t1ce4)](https://ci.appveyor.com/project/raymelon/volpi) 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Check out VolPI! The Volume Percentage Indicator. Your volume percentage etched on your system tray. @github https://github.com/raymelon/VolPI)
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Check%20out%20VolPI!%20The%20Volume%20Percentage%20Indicator.%20Your%20volume%20percentage%20etched%20on%20your%20system%20tray.%20%40github%20https://github.com/raymelon/VolPI)
 ![](https://reposs.herokuapp.com/?path=raymelon/VolPI&color=red)
 [![os (Windows 7+)](https://img.shields.io/badge/os-Windows%207%2B-green.svg?style=flat-square)](https://www.microsoft.com/en-us/software-download/windows7)
 [![.NET (4.0+)](https://img.shields.io/badge/.NET%20Framework-4.0%2B-orange.svg?style=flat-square)](https://www.microsoft.com/net)
